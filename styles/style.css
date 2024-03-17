@@ -1,15 +1,8 @@
 :root {
-    --primary-color: #1d3557;
+    --bg-color: #1d3557
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 
 header,
 footer {
-    background-color: var(--primary-color);
+    background-color: var(--bg-color);
 }

@@ -10,7 +10,7 @@ document.getElementById("clearOutputBtn").onclick = function () {
 
 // alert Name 
 document.getElementById("alertName").onclick = function () {
-    let userName = "kashif ali"
+    let userName = "Adil Sajjad"
     alert(userName)
     document.getElementById("output-box").innerHTML = " ";
     document.getElementById("input-box").innerHTML = userName;
@@ -18,7 +18,7 @@ document.getElementById("alertName").onclick = function () {
 
 // alert Number 
 document.getElementById("alertNumber").onclick = function () {
-    let number = 100
+    let number = 786
     alert(number)
     document.getElementById("output-box").innerHTML = " ";
     document.getElementById("input-box").innerHTML = number
@@ -33,11 +33,11 @@ document.getElementById("variableNames").onclick = function () {
 // show camelCase 
 document.getElementById("camelCase").onclick = function () {
     document.getElementById("input-box").innerHTML = " ";
-    document.getElementById("output-box").innerHTML = "weAreLearningJavaScript"
+    document.getElementById("output-box").innerHTML = "thisWasOurVeryFirstJavaScriptAssignment"
 }
 
-let num1 = 7;
-let num2 = 3;
+let num1 = 19;
+let num2 = 11;
 
 // Sum 2 Numbers
 
